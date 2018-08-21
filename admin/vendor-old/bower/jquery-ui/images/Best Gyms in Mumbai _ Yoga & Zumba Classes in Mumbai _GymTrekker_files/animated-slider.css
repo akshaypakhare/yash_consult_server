@@ -1,0 +1,134 @@
+﻿/* fixme: rename slider-section to animated-slider or something */
+.slider-section .slider-con {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+}
+.slider-section li {
+	position: relative;
+	list-style: none;
+	display: none;
+	text-align: center;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.slider-section li a {
+	display: block;
+}
+
+.slider-section .gym-name,
+.slider-section .gym-off,
+.slider-section .gym-price {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 5px 10px;
+  	text-align: left;
+}
+.slider-section .gym-name {
+    font-size: 25px;
+    top: 10px;
+    padding: 7px 10px;
+    color: #fff;
+    width: 85%;
+}
+.slider-section .gym-off {
+	  bottom: 70px;
+	  font-size: 16px;
+	  font-weight:600;
+}
+.gym-off {
+    line-height: 20px;
+}
+
+.slider-section .gym-off.white {
+	color: #fff;
+}
+
+.slider-section .gym-price {
+	  font-size: 18px;
+	  bottom: 10px;
+	  color: #ff0;
+}
+
+.slider-section li img {
+	width: 320px;
+	height: 320px;
+}
+.slider-section .previous_hidden {
+	display: block;
+	transform: scale(0.6,0.6);
+	-moz-transform: scale(0.6,0.6);
+	-ms-transform: scale(0.6,0.6);
+	-webkit-transform: scale(0.6,0.6);
+	opacity: 0.0;
+	position: absolute;
+	top: 40px;
+	left: -5px;
+	z-index: 0;
+}
+.slider-section .next_hidden {
+	display: block;
+	transform: scale(0.6,0.6);
+	-moz-transform: scale(0.6,0.6);
+	-ms-transform: scale(0.6,0.6);
+	-webkit-transform: scale(0.6,0.6);
+	opacity: 0.0;
+	position: absolute;
+	top: 40px;
+	left: 525px;
+	z-index: 0;
+}
+.slider-section .previous_item {
+	display: block;
+	transform: scale(0.8,0.8);
+	-moz-transform: scale(0.8,0.8);
+	-ms-transform: scale(0.8,0.8);
+	-webkit-transform: scale(0.8,0.8);
+	opacity: 1;
+	position: absolute;
+	top: -70px;
+	left: 0;
+	z-index: 0;
+}
+.slider-section .next_item {
+	display: block;
+	transform: scale(0.8,0.8);
+	-moz-transform: scale(0.8,0.8);
+	-ms-transform: scale(0.8,0.8);
+	-webkit-transform: scale(0.8,0.8);
+	opacity: 1;
+	position: absolute;
+	top: -70px;
+	right: 0;
+	z-index: 0;
+}
+.slider-section .current_item {
+	display: block;
+	position: absolute;
+	transform: scale(1,1);
+	-moz-transform: scale(1,1);
+	-ms-transform: scale(1,1);
+	-webkit-transform: scale(1,1);
+	top: -70px;
+	left: 290px;
+	z-index: 100;
+}
+.slider-section #btn-next,
+.slider-section #btn-prev {
+	position: absolute;
+	font-size: 0;
+	top: 90px;
+	left: -50px;
+	width: 32px;
+	height: 50px;
+	background: url(/SiteAssets/Images/New_Home/offerslider-arrow.png) no-repeat left center;
+}
+.slider-section #btn-prev {
+	left: auto;
+	right: -50px;
+	background-position: right center;
+}

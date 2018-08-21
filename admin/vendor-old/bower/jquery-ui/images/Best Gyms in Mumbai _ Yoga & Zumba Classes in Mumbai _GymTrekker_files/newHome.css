@@ -1,0 +1,136 @@
+﻿.location-name .pagination {
+    cursor: pointer;
+}
+#open-button,#close-button{
+	cursor:pointer;
+}
+.login-section,.trainers,.cust-feedback-block{
+	display:none !important;
+}
+.pinterest, .linkedin {
+    display: none !important;
+}
+.localityList div {
+    white-space: nowrap;
+}
+div[data-value=dance],div[data-value=pilates],div[data-value=crossfit] {
+    display: none;
+}
+
+.btn-register {
+    left: 10%;
+    top: 70%;
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    cursor: pointer;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0,0,0,.9);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.voucherPopup{
+    position: fixed;
+    z-index: 1005;
+    width: auto;
+    height: auto;
+    top: 5%;
+    left: 20%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.closeBtn {
+    font-size: 30px;
+    line-height: 0.5;
+    position: absolute;
+    color: #aaa;
+    text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+    font-weight: bold;
+    cursor: pointer;
+    right:3px;
+    top:3px;
+}
+
+.slider-section .gym-name {
+	text-transform:uppercase;
+}
+.dis-fit{
+	display:none;
+}
+.slide-7 .hps-title3,.slide-8 .hps-title3{
+	text-transform:none;
+}
+.pagination > li{
+	width:40px;
+}
+.search-by-loc{
+	display:none;
+}
+.ms-hide{
+	display:none;
+}
+.lfimg {
+    height: 30px;
+    text-align:center;
+}
+.filter-opt .lftext{
+	text-align:center;
+}
+.info-gym-list .gym-tag .tag-name{
+	text-transform:uppercase;
+}
+.page-footer .container:first-child{
+	display:none;
+}
+.news-section {
+    background-color: white;
+    position: relative;
+}
+.inc42 {
+    left: 46%;
+    top: 37%;
+    width: 10%;
+    position: absolute;
+    height: 30%;
+}
+.et{
+    left: 20%;
+    top: 37%;
+    width: 22%;
+    position: absolute;
+    height: 30%;
+}
+.fc{
+    left: 60%;
+    top: 37%;
+    width: 16%;
+    position: absolute;
+    height: 30%;
+}
+.mediaHeading {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 33px;
+}
+@media screen and (max-width: 700px){
+	.voucherPopup{
+    width: 90%;
+    left: 5%;
+	}
+	.mediaHeading {
+    width: 40%;
+    top: 0%;
+    font-weight: bold;
+    font-size: 10px;
+	}
+
+}

@@ -1,0 +1,243 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ 
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.navigation-area .navbar-nav li a {
+  padding: 25px 10px;
+}
+#skill {
+  padding-bottom: 80px;
+}
+.skilled-bg, .about-monitor {
+  margin-bottom: 50px;
+}
+#works {
+  background-image: none;
+}
+.single-team-box, .single-blog-post{
+  margin-top: 50px;
+}
+
+.full-height.home-slider-wrapper {
+    height: 550px;
+}
+.full-height.home-slider-wrapper .single-slide-item {
+    padding-top: 60px;
+}
+.home-slider-wrapper .single-slide-item {
+  padding: 120px 0 60px;
+}
+.single-slide-item h1, .single-slide-item h1 span {
+    font-size: 36px;
+    line-height: 1.3;
+}
+.single-slide-item h1 {
+    margin-bottom: 15px;
+}
+.single-slide-item {
+    line-height: 1.3;
+}
+.single-slide-item .mixit-btn {
+    margin-top: 20px;
+}
+.slider-waper.owl-carousel .owl-nav div {
+  background: #0b0e27 none repeat scroll 0 0;
+}
+
+.single-footer-widget {
+    margin-bottom: 50px;
+}
+.footer-widget > div > div > div:last-child .single-footer-widget {
+    margin-bottom: 0;
+}
+.copyright-area,
+.footer-menu ul {
+    text-align: center;
+}
+#google-map {
+  background: #fff none repeat scroll 0 0;
+  height: auto;
+}
+#google-container {
+  height: 300px;
+  position: relative !important;
+}
+.subscribe-form {
+    margin-top: 50px;
+}
+.subscribe-box {
+    text-align: center;
+}
+   
+ }
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+header {
+  border-bottom: none;
+}
+.top-search-icon {
+  float: left;
+}
+.top-search-icon > a {
+  padding: 15px 0;
+}
+
+.brand-logo {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+}
+.brand-logo img {
+  max-width: 140px;
+}
+.navbar-toggle.collapsed {
+  border-color: #fff;
+  border-radius: 3px;
+  margin-top: 12px;
+}
+.icon-bar {
+    background: #fff none repeat scroll 0 0;
+}
+.navigation-area {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  padding: 0;
+  position: relative;
+}
+.navigation-area .navbar-nav li {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+.navigation-area .navbar-nav li a {
+    padding: 5px 0;
+}
+.navigation-area .nav.navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+}
+.is-sticky .navigation-area{
+	padding: 0;
+}
+.is-sticky .navbar-collapse {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+}
+.full-height.home-slider-wrapper {
+    height: 450px;
+}
+.full-height.home-slider-wrapper .single-slide-item {
+    padding-top: 60px;
+}
+.home-slider-wrapper .single-slide-item {
+  padding: 120px 0 60px;
+}
+.section-title {
+    font-size: 24px;
+    line-height: 1.3;
+}
+.single-slide-item h1, .single-slide-item h1 span {
+    font-size: 17px;
+    line-height: 1.3;
+}
+.single-slide-item h1 {
+    margin-bottom: 15px;
+}
+.single-slide-item {
+    line-height: 1.3;
+}
+.single-slide-item .mixit-btn {
+    margin-top: 20px;
+}
+
+#works {
+  background-image: none;
+}
+
+.portfolio-navigation {
+    margin-top: 10px;
+    text-align: left;
+}
+.portfolio-navigation li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.single-testimonial-item > p {
+  padding: 0;
+}
+#testimonial {
+    padding-top: 80px;
+}
+.client-testimonial-carousel {
+  margin-top: 0;
+}
+
+.circle-skill-single-item {
+    margin-bottom: 50px;
+}
+.right-service-box div.row > div:nth-child(1)::after, 
+.right-service-box div.row > div:nth-child(2)::after {
+    display: none;
+}
+.right-service-box div.row:nth-child(1) {
+    border: medium none;
+}
+.skilled-bg, .about-monitor {
+  margin-bottom: 50px;
+}
+.services-bg {
+  margin-top: 50px;
+}
+#video-intro {
+  text-align: center;
+}
+.single-team-box, .single-blog-post{
+  margin-top: 50px;
+}
+.single-footer-widget {
+    margin-bottom: 50px;
+}
+.footer-widget > div > div > div:last-child .single-footer-widget {
+    margin-bottom: 0;
+}
+.copyright-area,
+.footer-menu ul {
+    text-align: center;
+}
+#google-map {
+  background: #fff none repeat scroll 0 0;
+  height: auto;
+}
+#google-container {
+  height: 300px;
+  position: relative !important;
+}
+.subscribe-form {
+    margin-top: 50px;
+}
+.subscribe-box {
+    text-align: center;
+}
+.subscribe-form button[type="submit"] {
+    margin: 15px auto 0;
+}
+.subscribe-form input[type="email"] {
+    width: 100%;
+    text-align: center;
+}
+.facebook-page {
+    max-width: 100%;
+    overflow: hidden;
+}
+.footer-menu ul li a {
+    line-height: 1;
+    padding: 5px 0;
+}
+.footer-menu {
+    margin-top: 15px;
+}
+ }
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+ }

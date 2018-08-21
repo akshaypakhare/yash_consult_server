@@ -1,0 +1,657 @@
+﻿/* Large desktop */
+@media (min-width: 1200px) {
+	.parallax-block-wrap-module.module-experts .parallax-background img {
+		max-width: 100%;
+	}
+	.buy-membership-popup {
+		width: 1000px;
+	}
+}
+
+@media (max-width: 1199px) { 
+	.trainer-video-block,
+	.trainer-block.trainer-left .trainer-video-block {
+		background: none;
+	}
+	.trainer-video {
+	  width: 380px;
+	  padding-top: 100px;
+	}
+}
+
+@media (min-width: 980px) {
+	.no-left {
+		padding-left: 0;
+	}
+	.no-right {
+		padding-right: 0;
+	}
+}
+
+/* Desktop */
+@media (min-width: 980px) and (max-width: 1199px) { 
+	.slider-section {
+		height: 220px;
+	}
+	.slider-section .slider-con { 
+		width: 790px;
+	}
+	.slider-section .current_item {
+		left: 255px;
+	}
+	.slider-section #btn-next, .slider-section #btn-prev { 
+		top: 70px;
+  	  	left: -40px;
+	}
+	.slider-section #btn-prev {
+		left: auto;
+		right: -40px;
+	}
+	.slider-section li img {
+		width: 280px;
+		height: 280px;
+	}
+	.inner-collection {
+	  top: -50px;
+	  max-width: 990px;
+	}
+	.gymdet-title-text {
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
+
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.slider-section {
+		height: 220px;
+	}
+	.slider-section .slider-con { 
+		width: 650px;
+	}
+	.slider-section .current_item {
+		left: 195px;
+	}
+	.slider-section #btn-next, .slider-section #btn-prev { 
+		top: 70px;
+  	  	left: -20px;
+	}
+	.slider-section #btn-prev {
+		left: auto;
+		right: -20px;
+	}
+	.slider-section li img {
+		width: 280px;
+		height: 280px;
+	}
+	.fitness-block {
+		padding: 30px 0 0;
+	}
+	.free-offer-price {
+		padding-bottom: 10px;
+	}
+	.free-offer-gym-det .free-offer-price-btn {
+    	margin-top: 15px;
+	}
+	.btn-buy-green {
+		margin-bottom: 4px;
+	}
+}
+
+@media (max-width: 979px) { 
+	.inner-collection {
+		  top: -25px;
+		  max-width: 770px;
+	}
+	.next-img,
+	.prev-img {
+		display: none
+	}
+	.calculator-section {
+		background-size: cover;
+	}
+	.contact-text {	
+	  font-size: 34px;
+	  line-height: 40px;
+	}
+	.contact-no {
+	  font-size: 32px;
+	}
+	.gym-button .btn-book:after,
+	.gym-button .btn:after {
+		display: none;
+	}
+	
+	.gymdet-title-text {
+		top: 55%;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.offer-gym-det, .offer-gym-btn {
+		display: block;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	.search-bar .col-sm-4 {
+		float: left;
+		width: 50%;
+	}
+	.login-box {
+		top: 52px;
+	}
+	.login-box:before {
+		right: 8px;
+	}
+	
+	.parallax-block-content {
+		padding-top: 30px;
+	}
+	.parallax-text h1 {
+		margin-top: 0;
+	}
+	.slide-container {
+		/*display: none;*/
+	}
+	.contents-main {
+		/*margin-top: 0 !important;*/
+	}
+	
+	.slider-section .previous_item,
+	.slider-section .current_item,
+	.slider-section .next_item {
+		top: -40px;
+	}
+	
+	.slider-section {
+		height: 184px;
+	}
+	.slider-section .slider-con { 
+		width: 420px;
+	}
+	.slider-section .current_item {
+		left: 100px;		
+	 	border: 2px solid #fff;
+	}
+	.slider-section #btn-next, .slider-section #btn-prev { 
+		top: 55px;
+  	  	left: -20px;
+	}
+	.slider-section #btn-prev {
+		left: auto;
+		right: -20px;
+	}
+	.slider-section li img {
+		width: 220px;
+		height: 220px;
+	}
+	.slider-section .gym-name {
+  		font-size: 14px;
+	}
+	.slider-section .gym-off {
+		font-size: 11px;
+	}
+	.slider-section .gym-price {
+  		font-size: 15px;
+	}
+	
+	.hps-title1 {
+		top: 174px !important;
+    	padding: 10px !important;
+   		font-size: 12px !important;
+	}
+	.hps-title3 {
+		top: 212px !important;
+		font-size: 18px !important;
+		line-height: 24px !important;
+	}
+	.hps-title4 {
+		top: 318px !important;
+	  	line-height: 18px !important;
+	  	font-size: 12px !important;
+	  	padding: 5px 10px !important;
+		background-position: left center !important;
+	}
+	
+/*	.slide-1 .hps-title4 {
+		top: 280px !important;
+	}	*/
+	.slide-2 .hps-title4,
+	.slide-3 .hps-title4,
+	.slide-6 .hps-title4 {
+		top: 280px !important;
+	}
+		
+	.parallax-block .button.open-btn {
+ 		 margin-top: 40px; 
+	}
+	
+	.ms-bullets.ms-dir-h {
+		bottom: 50px;
+	}
+	
+	
+	.search a, .req-call a {
+  		display: block;
+		font-size: 20px;
+  		padding: 0;
+  		border: 0 none;
+	}
+	
+	.chart {
+	  	margin-top: 30px;
+ 		margin-bottom: 20px;
+	}
+	.chart, .chart canvas { 
+		width: 150px !important;
+		height: 150px !important;
+	}
+	.percent {
+		font-size: 20px;
+		line-height: 150px;
+	}
+	.calculator-section {
+		padding: 0 0 50px;
+	}
+	
+	.page-footer {
+		text-align: center;
+	}
+	.page-footer .col-sm-3 {
+		float: left;
+		width: 50%;
+	}
+	.social_icon, .footer-logo {
+	  text-align: center;
+	}
+	
+	.newsletter-bg .subcr-text {
+  		font-size: 14px;
+	}
+	.newsletter-bg {
+		padding: 25px 30px 90px;
+	}
+	.newsletter-bg .news-input .form-control {
+  		margin: 10px 0;
+	}
+	.newsletter-bg .email-enjoy {
+  		font-size: 14px;
+	}
+	.btn-subscribe {
+		font-size: 15px;
+		padding: 5px 20px;
+	}
+	
+	.fitness-block {
+	  	padding: 35px 0 25px;
+	}
+	
+	.fitness-block .f-block {
+		margin-bottom: 25px;
+	}
+	
+	.fitness-block .f-block {
+		min-height: 0;
+	}
+	
+	.about-head {
+	  padding: 12px 0;
+	  margin-bottom: 15px;
+	  font-size: 20px;
+	  line-height: 25px;
+	}
+	
+	.dwm-date .dwm-text {
+	  font-size: 8px;
+	}	
+	.offer-round {
+	  	height: 440px;
+	}
+	.offer-round-chart {
+		  padding: 40px;
+		  width: 350px;
+		  height: 350px;
+		  margin-top: -175px;
+		  margin-left: -175px;
+	}
+	.offer-round-chart .offer-gym {
+		width: 15px;
+		height: 15px;
+	}
+	.offer-round-chart .offer-gym:hover {
+		  width: 70px;
+  			height: 70px;
+			font-size: 10px;
+	}
+	.carousel-control.left, .carousel-control.right {
+	  font-size: 18px;
+	  margin-top: -15px;
+	  line-height: 30px;
+	  height: 30px;
+	  width: 30px;
+	}
+	
+	.animated {
+		-o-transition-property: none !important;
+ 		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	
+	.contact-text {	
+	  font-size: 24px;
+	  line-height: 24px;
+	}
+	.contact-no {
+	  font-size: 24px;
+	}
+	.inner-collection {
+	  top: 0;
+	}
+	.trainer-video-block {
+		height: auto;
+	}
+	.trainer-video {
+		padding-top: 30px;
+		margin: 0 auto;
+		width: auto;
+		max-width: 380px;
+	}
+	.trainer-left .trainer-video {
+		padding: 30px 0;
+	}
+	
+	.trainer-info {
+	  color: #fff;
+	  text-align: center;
+	  padding: 30px 0;
+	}
+	.trainer-left .trainer-info {
+		padding-bottom: 0;		
+	}	
+	.trainer-video-block,
+	.trainer-left .trainer-video-block {
+		text-align: center;
+	}
+	
+	.gym-button-block,
+	.gymlist-block {
+		text-align: center;
+	}
+	.info-gym-list .gym-loc {
+		display: inline-block;
+	}
+	.info-gym-list .filter-opt .fcolum {
+		display: inline-block;
+		float: none;
+		padding: 5px 10px 0 0;
+	}
+	.filter-opt .lfimg img {
+		width: 15px;
+	}
+	.filter-opt .lftext {
+		font-size: 9px;
+	}	
+	.gym-memb-details, .gym-photos, .gym-equipment, .gym-details-text {
+		margin-bottom: 20px;
+	}
+	.left-details .leftmenu-block {
+    	padding: 10px 0;
+	}
+	.gym-memb-details .btn-memb:after {
+		display: none;
+	}
+	.page-details {
+		text-align: center;
+	}
+	.floor-t .label-t {
+		text-align: right;
+	}
+	.gym-details-block {
+		background: url(/SiteAssets/Images/freedom-sale/details-page.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	.bg-img {
+		display: none;
+	}	
+	
+	.offer-gym-det .offer-gym-name {
+		font-size: 16px;
+	}
+	
+	.step-block .steps {
+    	font-size: 12px;
+	}
+	
+	.book-session-popup .table > thead > tr > th {
+		font-size: 12px;
+		padding: 5px 8px;
+	}
+	.book-session-popup .table > tbody > tr > td {
+		font-size: 12px;
+		padding: 3px 8px;
+	}
+	
+	.book-session-popup .modal-title h4 {
+    	font-size: 14px;
+	}
+	
+	.location-filter ul li {
+    	margin: 0;
+	}
+	
+	.offer-logo {
+		left: 50%;
+		margin-left: -105px;
+	}
+	.freedom-background {
+		min-height: 235px;
+		background: url("/SiteAssets/Images/bigfitness/mobile-republicfitness-sale.jpg") no-repeat;
+		background-size: contain;
+	}
+	.valentine-background {
+		min-height: 235px;
+		background: url("/SiteAssets/Images/bigfitness/valentine-offer.jpg") no-repeat;
+		background-size: contain;
+	}
+
+	.free-offer-banner {
+		display: none;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	#header {
+	  	height: 82px;
+	}
+	.search-bar, #header.reveal {
+		position: relative;
+		top: 0;
+	}
+	.search-bar {
+		width: 74%;
+	}
+	.search-btn-box {
+		right: -66px;
+	}
+	.search-btn-box,
+	.search-btn-box .btn-search {
+		height: 75px;
+	}
+	.header-container .logo img {
+	  	max-width: 130px;
+	}
+	#open-button {
+  		margin-top: 13px;
+	}
+	.quick-access {
+  		line-height: 62px;
+	}
+	.select-city {
+		top: 45px;
+  		left: 110px;
+	}
+	
+	.social-icon-top { 
+		margin-top: -50px;
+	}
+	
+	.slider-section {
+	  	margin-top: -160px;
+	  	height: 164px;
+	}
+	
+	.slider-section .slider-con { 
+		width: 270px;
+	}
+	.slider-section .current_item {
+	  left: 30px;
+	}
+	.slider-section #btn-next, .slider-section #btn-prev { 
+  	  	left: -20px;
+	}
+	.slider-section #btn-prev {
+		left: auto;
+		right: -20px;
+	}
+	.slider-section li img {
+		width: 200px;
+		height: 200px;
+	}
+	.slider-section .gym-name {
+  		font-size: 12px;
+	}
+	.slider-section .gym-off {
+		font-size: 10px;
+	}
+	.slider-section .gym-price {
+  		font-size: 14px;
+	}
+	.ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
+ 		display: none;
+	}
+	.filter-images a {
+  		margin: 0 12px 10px;
+	}
+	
+	.filter-images img {
+	  max-height: 40px;
+	}
+	
+	.location-name .pagination > li > a {
+	  	font-size: 15px;
+	}
+	
+	.parallax-block .button.open-btn {
+ 		 margin-top: 22px; 
+	}
+	
+	.collection-section .col-block,
+	.block-text {
+	  	height: 140px;
+	}
+	.block-text {
+	  	font-size: 30px;
+	}
+	
+	.gym-locations .gym-by-loc {
+		font-size: 14px;
+	}
+	.gym-locations .gym-loc-icon {
+		top: 10px;
+  		right: 20px;
+  		background-size: 30px auto;
+	}
+	
+	.location-name a { 
+		font-size: 11px;
+ 		margin: 3px 0px;
+	}
+	.search-by-loc {
+	  	padding: 18px 0 0 80px;
+	}
+	
+	.page-footer .col-sm-3,
+	.search-bar .col-sm-4 {
+		float: none;
+		width: auto;
+	}
+	
+	.social_icon a {
+		width: 34px;
+  		height: 34px;
+		background-size: 220px auto;
+	}
+	
+	.newsletter-bg .email-logo {
+	  margin: 3px 0 15px;
+	}
+	
+	.dis-fit {
+	  	font-size: 25px;
+	}
+	.inner-contents {
+		margin: 0;
+	}
+	
+	.social_icon a.twitter { background-position: left center }
+	.social_icon a.google-plus { background-position: -37px center }
+	.social_icon a.facebook { background-position: -74px center }
+	.social_icon a.pinterest { background-position: -112px center }
+	.social_icon a.linkedin { background-position: -150px center }
+	.social_icon a.instagram { background-position: right center }
+	
+	
+	.filter-bar {
+		display: none;
+	}
+	.contact-text, .contact-no {
+  		left: 15%;
+	}
+	
+	.gymdet-title-logo {
+    	top: 8%;
+	}
+	.gymdet-title-logo img {
+		width: 80px;
+	}
+	.gymdet-title-text {
+		top: 36%;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.gym-details-block {
+		min-height: 280px;
+	}
+	.offer-gym-det .offer-gym-des {
+		font-size: 12px;
+	}
+	.offer-gym-btn .btn-offer-buy {
+    	font-size: 12px;
+	}
+	
+	
+	.free-offer-price {
+		padding-bottom: 10px;
+	}
+	.free-offer-gym-det .free-offer-price-btn {
+    	margin-top: 15px;
+	}
+	.btn-buy-green {
+		margin-bottom: 4px;
+	}
+}
